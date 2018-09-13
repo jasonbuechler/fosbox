@@ -1,14 +1,17 @@
 # Foscam Cloud
 
 Foscam IP cameras offer a "Cloud Plan" for saving camera recordings to "the cloud". 
+
 ![cloud recording plan interface](cloud-recording-plan.png)	
 
 
 But some recent additions to their SDK for CGI gateway interface reveals some tantalizing info that seems like it allows us to see and potentially tinker under the hood of the cloud-recording functionality: namely that apparently Dropbox is "the cloud". (Note that the data output from the 'get' function has significantly more parts than can be 'set', at least according to the published documentation.)
+
 ![cloud verbs from cgi sdk](cgi-cloud-configs.png)	
 
 
 Here's the interesting output from a run of `getCloudConfig` 
+
 ![actual output from getconfig](example-getconfig.png)	
 
 
@@ -25,10 +28,12 @@ A couple of convenient vulnerabilities indicate how to decrypt and extract Fosca
 
 
 But wouldn't you know it, my old nemesis squashfs rears its ugly head. (But also a huge drop in comfort level rears its ugly head, as we're well of my usual trails.)
+
 ![firmware package decrypted and expanded](firmware-upgrade-decrypted.png)	
 
 
 # And now I'm stuck
 
 [I've read](http://www.devttys0.com/2014/08/mucking-about-with-squashfs/) that squashfs is often a huge boogerbrain because so many vendors customize it for their own purposes, leaving standard tools unable to work with customized output. Perhaps Sasquatch would be able to crack these nuts but I've never used it and pretty certain if I COULD find the client_id buried inside, I wouldn't know quite how to re-squash the firmware correctly, especially if anything's signed.
+
 ![squashfs files are nonstandard](sqfs-files-nonstandard.png)
