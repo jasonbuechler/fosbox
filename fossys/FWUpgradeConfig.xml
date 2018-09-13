@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<mConfig class_id="0" tracking_level="0" version="0">
+	<romPart class_id="1" tracking_level="0" version="0">
+		<isExist>0</isExist>
+		<fileName></fileName>
+		<mainVer>1</mainVer>
+		<subVer>0</subVer>
+		<revision>0</revision>
+	</romPart>
+	<nsbootPart>
+		<isExist>0</isExist>
+		<fileName></fileName>
+		<mainVer>1</mainVer>
+		<subVer>0</subVer>
+		<revision>0</revision>
+	</nsbootPart>
+	<ubootPart>
+		<isExist>0</isExist>
+		<fileName></fileName>
+		<mainVer>1</mainVer>
+		<subVer>0</subVer>
+		<revision>0</revision>
+	</ubootPart>
+	<linuxPart>
+		<isExist>1</isExist>
+		<fileName>vmlinux.img</fileName>
+		<mainVer>9</mainVer>
+		<subVer>3</subVer>
+		<revision>16</revision>
+	</linuxPart>
+	<appPart>
+		<isExist>1</isExist>
+		<fileName>mtd.sqfs</fileName>
+		<fileNameExt>mtd_ext.sqfs</fileNameExt>
+		<mainVer>2</mainVer>
+		<subVer>2</subVer>
+		<revision>200</revision>
+	</appPart>
+</mConfig>
