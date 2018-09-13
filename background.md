@@ -9,6 +9,8 @@ But some recent additions to their SDK for CGI gateway interface reveals some ta
 
 ![cloud verbs from cgi sdk](cgi-cloud-configs.png)	
 
+![other cloud verbs from cgi sdk](cgi-cloud-other.png)
+
 
 Here's the interesting output from a run of `getCloudConfig` 
 
