@@ -50,7 +50,9 @@ The client_id is located in mtd/app/bin/webService, along with
 * CkL5ZIgcOxAwk2p3IKo0Y1gViDSXtxQB
 
 
-# Geometry
+# Geometry (foscam_app_2.x.2.43.bin)
+
+Ding ding ding we have a winner
 
 * sqfs filesizes
 * `size(both)         = 10,739,712 :: /(1024^2) = 10.242~`
