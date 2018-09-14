@@ -44,7 +44,7 @@ But wouldn't you know it, my old nemesis squashfs rears its ugly head. (But also
 # Just kidding, made it past this roadblock thanks to someone much smarter than me
 
 The client_id is located in mtd/app/bin/webService, along with
-* (9bpwfjxoqbduf39)
+* (9bpwfjxoqbduf39) @ 0x0007CC00
 * nj9eCNlkM9G0YrF0etOZEHk3
 * wur0137qwx9iryh
 * CkL5ZIgcOxAwk2p3IKo0Y1gViDSXtxQB
