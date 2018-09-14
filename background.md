@@ -44,3 +44,21 @@ But wouldn't you know it, my old nemesis squashfs rears its ugly head. (But also
 # Just kidding, made it past this roadblock thanks to someone much smarter than me
 
 The client_id is located in ____
+
+* sqfs filesizes
+* `size(both)         = 10,739,712 :: /(1024^2) = 10.242~`
+* `size(mtd.sqfs)     =  6,291,456 :: /(1024^2) =  6`
+* `size(mtd_ext.sqfs) =  4,448,256 :: /(1024^2) =  4.242~`
+* unsquashed filesizes
+* `size(both)         = 22,263,049 :: /(1024^2) = 21.231~~`
+* `size(mtd)          = 13,047,530 :: /(1024^2) = 12.443~~`
+* `size(mtd_ext)      =  9,215,519 :: /(1024^2) =  8.788~~`
+* geometry
+* `size(mtd.sqfs)/(mtd_ext.sqfs) = 1.414364~`
+* `size(mtd.sqfs)/(both)         = 0.585812~`
+* `size(mtd_ext.sqfs)/(both)     = 0.414187~`
+* `sqrt(2)                       = 1.414213~`
+* `size(mtd)/(mtd_ext)           = 1.415821~`
+* `size(mtd)/(both)              = 0.586062~`
+* `size(mtd_ext)/(both)          = 0.413937~`
+
