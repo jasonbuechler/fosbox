@@ -39,3 +39,8 @@ But wouldn't you know it, my old nemesis squashfs rears its ugly head. (But also
 [I've read](http://www.devttys0.com/2014/08/mucking-about-with-squashfs/) that squashfs is often a huge boogerbrain because so many vendors customize it for their own purposes, leaving standard tools unable to work with customized output. Perhaps Sasquatch would be able to crack these nuts but I've never used it and pretty certain if I COULD find the client_id buried inside, I wouldn't know quite how to re-squash the firmware correctly, especially if anything's signed.
 
 ![squashfs files are nonstandard](sqfs-files-nonstandard.png)
+
+
+# Just kidding, made it past this roadblock thanks to someone much smarter than me
+
+The client_id is located in ____
