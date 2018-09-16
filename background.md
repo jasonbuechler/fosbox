@@ -29,7 +29,9 @@ A couple of convenient vulnerabilities indicate how to decrypt and extract Fosca
 * https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0378
 
 
-But wouldn't you know it, my old nemesis squashfs rears its ugly head. (But also a huge drop in comfort level rears its ugly head, as we're well of my usual trails.)
+`openssl enc -d -aes-128-cbc -k WWzift*v2 -md md5 -in FosIPC_E_app_ver2.x.2.43.bin -out 43bin.tgz`
+
+(Apparently, depending on your version of openssl, the default digest type changed, so you may or may not need the `-md md5` argument.) But wouldn't you know it, my old nemesis squashfs rears its ugly head. (But also a huge drop in comfort level rears its ugly head, as we're well of my usual trails.)
 
 ![firmware package decrypted and expanded](firmware-upgrade-decrypted.png)	
 
@@ -53,7 +55,7 @@ Unfortunately, because a sqfs is compressed, you cannot (that I'm aware of) loop
 
 `mksquashfs squashfs-root both43-MOD.sqfs -all-root -no-fragments -noI -comp xz`
 
-`tar -cvf ../both43-MOD4.tar --owner=foscam --group=foscam -H gnu *`
+`tar -cvf ../bin43-MOD.tar --owner=foscam --group=foscam -H gnu *`
 
 ![squashfs properties](sqfs-default-diffs.png)
 
