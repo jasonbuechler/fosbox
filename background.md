@@ -49,10 +49,15 @@ The client_id is located in mtd/app/bin/webService, along with
 * wur0137qwx9iryh
 * CkL5ZIgcOxAwk2p3IKo0Y1gViDSXtxQB
 
-Unfortunately, because a sqfs is compressed, you cannot (that I'm aware of) loop-mount it as rw; which means you can't just make an edit and unmount it, so we have to unsquash, then edit, then resquash. The squashed filesystem has a couple non-default options which might be important when resquashing an edited
+Unfortunately, because a sqfs is compressed, you cannot (that I'm aware of) loop-mount it as rw; which means you can't just make an edit and unmount it, so we have to unsquash, then edit, then resquash. The squashed filesystem has a couple non-default options which might be important when resquashing an edited fs. Also, re-creating the tar/tgz that gets sent to open ssl requires some edits to the defaults.
 
 `mksquashfs squashfs-root both43-MOD.sqfs -all-root -no-fragments -noI -comp xz`
+
+`tar -cvf ../both43-MOD4.tar --owner=foscam --group=foscam -H gnu *`
+
 ![squashfs properties](sqfs-default-diffs.png)
+
+
 
 
 # Geometry (foscam_app_2.x.2.43.bin)
