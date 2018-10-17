@@ -44,7 +44,7 @@ The file we want turns out to be
 
 Again, though, most of my cameras are fully updated which means the current firmware does signature verification on normal firmware update files. So I can't create the required signature on my edited resources - Sad! I can't imagine this is a hurdle that cannot be overcome (given Foscam's lackluster security background) in the future but I still need a little more trickery to proceed.
 
-Here are my findings so far, investigating this option: _cracking-fwupdates_
+Here are my findings so far, investigating this option: [Breaking open fw update .bin's](cracking-fwupdates.md)
 
 ## Option 3: Full system recovery reflash grants master downgrade! 
 
@@ -56,4 +56,4 @@ A couple years ago, a very nice guy [put a webpage on his personal website](http
 
 In any case, I tried it myself and it worked! My camera reverted back to firmware circa Aug-2015! Not to get too excited though, this recovery_image.bin file might only be usable on the C1 -- and very possibly might only be usable on early revisions of the C1?? It would be very helpful to learn more about the specifics of this file and how the process works.
 
-Here are my findings so far, investigating this option: _recovery-downgrade_
+Here are my findings so far, investigating this option: [Really low-level access](recovery-downgrade.md)
