@@ -30,7 +30,7 @@ The camera has no ssh/telnet running, but it does have a semi-secret FTP server.
 
 Fortunately, Foscam (and the C1's specifically) has had a book's worth of vulnerabilities published (for early-ish firmware versions) allowing for a telnet service to be started, and privilege escalation to the root user! But again unfortunately, most of my cameras are completely up-to-date and although limited testing suggests downgrading to earlier firmware packages is possible, certain language in the documentation implies that mismatching versions of app-fw and sys-fw packages will lead to a bricked camera, which I am not keen on the idea of.  (Yet!  You'll see...)
 
-Here are my findings so far using this option: _telnet_access_
+Here are my findings so far using this option: [Trying to get shell access](telnet_access.md)
 
 ## Option 2: Overwriting the contents of firmware update binaries
 
