@@ -57,3 +57,5 @@ A couple years ago, a very nice guy [put a webpage on his personal website](http
 In any case, I tried it myself and it worked! My camera reverted back to firmware circa Aug-2015! Not to get too excited though, this recovery_image.bin file might only be usable on the C1 -- and very possibly might only be usable on early revisions of the C1?? It would be very helpful to learn more about the specifics of this file and how the process works.
 
 Here are my findings so far, investigating this option: [Really low-level access](recovery-downgrade.md)
+
+Actually a LOT of this third option has forked into its own life in another project, too: https://github.com/jasonbuechler/fw9900Pv3
