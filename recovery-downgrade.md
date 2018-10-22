@@ -22,6 +22,8 @@ I could think of several variations on their description, and knew there might w
 
 Soooo I spent many hours learning enough ARM assembly to scrape by... flipping back and forth and back and forth [to reference documentation](http://www.keil.com/support/man/docs/armasm/armasm_dom1361289873425.htm) until I was confident I knew what algorithm to apply!
 
+![xor-disassembly.png](xor-disassembly.png)
+
 I've been using Python a lot lately, so I wanted to proceed using it. But theeeen I had to learn enough python and python data structures to actually DO the thing. Previously, I've never had to directly interact with internals of binary files so this was another humbling process of unguided stumbling and learning and stumbling.
 
 # #HumbleBrag ... first try
