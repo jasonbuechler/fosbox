@@ -1,11 +1,15 @@
 foscam C1 backup file (.bin file)
 
+```
 openssl enc -d -aes-128-cbc -in foscam-configuration-from102.bin -out del.bin -md md5 -k BpP+2R9*Q
+```
 
 AKA the symmetric decryption key is 
 - "BpP+2R9*Q"
 - aes-128-cbc
 - md5 digest
+
+Decrypts to a gzip archive with the contents...
 
 ```
  Directory of C:\Users\jason\Downloads\openssl\del\del~
